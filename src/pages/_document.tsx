@@ -13,7 +13,6 @@ class MyDocument extends Document {
           {siteConfig.googleFontLinks.map(link => (
             <link key={link} rel="stylesheet" href={link} />
           ))}
-          <script src="https://2gether.video/release/extension.website.user.js"></script>
         </Head>
         <body>
           <Main />
