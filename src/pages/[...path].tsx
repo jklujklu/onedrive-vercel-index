@@ -14,6 +14,7 @@ export default function Folders() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-white dark:bg-gray-900">
+      <script src="https://2gether.video/release/extension.website.user.js" async />
       <Head>
         <title>{siteConfig.title}</title>
       </Head>
